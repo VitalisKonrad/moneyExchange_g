@@ -3,6 +3,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>MoneyExchande</title>
 </head>
 <body>
@@ -11,7 +14,7 @@
             <div class="container-header">
                 <div class="logo">
                     <img src="img/logo.png" alt="logo">
-                    <span class="logo-text"><b>moneyex</b>chance</span>
+                    <span class="logo-text"><b>moneyex</b>change</span>
                 </div>
                 <!-- /.logo -->
                 <nav class="menu-list">
@@ -20,6 +23,7 @@
                     <a href="#">Контакты</a>
                 </nav>
                 <!-- /.nav -->
+
                 <div class="log-in">
                     <button class="button-sign-in">Вход</button>
                     <!-- /.button-sign-in -->
@@ -32,5 +36,63 @@
         </div>
         <!-- /.container -->
     </header>
+    <section class="section">
+        <div class="container">
+            <div class="main-figure">
+                <div class="main-text_title">
+                    <span>Мультивалютный обменный сервис 24/7</span>
+                </div>
+                <!-- /.main-text_title -->
+                <div class="main-text__subtite">
+                    <span>Быстрый обмен без скрытых комиссий</span>
+                </div>
+                <!-- /.main-text__subtite -->
+                <div class="main-form">
+                    <div class="main-form-exchange">
+                        <div class="recieve">
+                            <span>Вы отдаёте</span>
+                            <p>Сумма</p>
+                            <div class="recieve-value">
+                                <input type="number" class="recieve-value-text" placeholder="100.00" pattern="[0-9]{1,8}">
+                                <div class="currency">
+                                    <img src="img/currency/Group%20177-1.png" alt="" class="curency__img">
+                                    <span class="currency__text">RUB</span>
+                                    <img src="img/currency/dropdown.svg" alt="" class="currency__dropdown">
+                                </div>
+                                <!-- /.currency -->
+                            </div>
+                            <!-- /.recieve-value -->
+                        </div>
+                        <!-- /.recieve -->
+                        <img src="img/currency/change-row.svg" alt="">
+                        <div class="recieve">
+                            <span>Вы получаете</span>
+                            <p>Сумма</p>
+                            <div class="recieve-value">
+                                <input type="number" class="recieve-value-text" placeholder="100.00" pattern="[0-9]{1,8}">
+                                <div class="currency">
+                                    <img src="img/currency/Group%20177.png" alt="" class="curency__img">
+                                    <span class="currency__text">RUB</span>
+                                    <img src="img/currency/dropdown.svg" alt="" class="currency__dropdown">
+                                </div>
+                                <!-- /.currency -->
+                            </div>
+                            <!-- /.recieve-value -->
+                        </div>
+                        <!-- /.recieve -->
+                        <button class="button-exchange">Обменять</button>
+                    </div>
+                    </div>
+                    <!-- /.main-form-exchange -->
+
+                <!-- /.main-form -->
+
+            </div>
+            <!-- /.main-figure -->
+
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section -->
 </body>
 </html>

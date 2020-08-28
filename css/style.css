@@ -258,7 +258,7 @@ input::-webkit-inner-spin-button {
 	color: #4E5983;
 	opacity: 0.9;
 }
-.container-history{
+.container-history, .container-history-violet{
 	height: 550px;
 	background: #FFFFFF;
 	border: 4px solid #F7F8FD;
@@ -372,7 +372,7 @@ input::-webkit-inner-spin-button {
 	margin-left: 30px;
 }
 .swiper-button-next1, .swiper-button-prev1{
-	top: 100%;
+	top: 110%;
 	height: 20px;
 	width: 80px;
 	background-repeat: no-repeat;
@@ -388,4 +388,15 @@ input::-webkit-inner-spin-button {
 .swiper-button-prev1{
 	left: 88%;
 	background-image: url("../img/sliderButtons/Arrow2.svg");
+}
+.container-history-violet{
+	background: linear-gradient(140.59deg, #562EC2 29.59%, #A07EFE 73.59%);
+	opacity: 0.8;
+	margin-top: 170px;
+}
+.container-exchange{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-basis: 50%;
 }
